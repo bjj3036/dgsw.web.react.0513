@@ -1,0 +1,32 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 10s linear;
+    animation-direction: alternate;
+    height: 80px;
+    pointer-events: none;
+    /*height: 40vmin;
+    vmin은 width와 height중 더 짧은 부분을 단위로 씀*/
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
